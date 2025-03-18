@@ -6,7 +6,7 @@
     "location": "Tokyo, Japan",
     "startDate": "2020",
     "endDate": "2024",
-    "description": "",
+    "description": "Description of your role",
     "type": "education"
   },
   {
@@ -16,7 +16,7 @@
     "location": "Tokyo, Japan",
     "startDate": "2024",
     "endDate": null,
-    "description": "",
+    "description": "Description of your role",
     "type": "education"
   },
   
