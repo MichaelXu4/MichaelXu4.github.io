@@ -1,0 +1,44 @@
+[
+  {
+    "id": "presentation-6",
+    "title": "DPC STEMによるナノ結晶軟磁性材料の磁壁移動観察",
+    "titleJa": "DPC STEMによるナノ結晶軟磁性材料の磁壁移動観察",
+    "speakers": "許 マイケル, 関 岳人, 太田 元基, 河野 祐二, 柴田 直哉",
+    "speakersJa": "許 マイケル, 関 岳人, 太田 元基, 河野 祐二, 柴田 直哉",
+    "conference": "日本顕微鏡学会 第81回学術講演会",
+    "conferenceJa": "日本顕微鏡学会 第81回学術講演会",
+    "date": "2025-06-11",
+    "year": "2025",
+    "place": "福岡国際会議場",
+    "placeJa": "福岡国際会議場",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-5",
+    "title": "In Situ DPC STEM and Simulation of Domain Wall Motion in Nanocrystalline Soft Magnets",
+    "titleJa": "In Situ DPC STEM and Simulation of Domain Wall Motion in Nanocrystalline Soft Magnets",
+    "speakers": "Michael Xu, Takehito Seki, Motoki Ohta, Yuji Kohno, Naoya Shibata",
+    "speakersJa": "Michael Xu, Takehito Seki, Motoki Ohta, Yuji Kohno, Naoya Shibata",
+    "conference": "5th International Workshop on In Situ Electron Microscopy",
+    "conferenceJa": "5th International Workshop on In Situ Electron Microscopy",
+    "date": "2025-05-13",
+    "year": "2025",
+    "place": "Port",
+    "placeJa": "Port",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-4",
+    "title": "In situ observation of domain wall motion in nanocrystalline soft magnetic materials by DPC STEM",
+    "titleJa": "In situ observation of domain wall motion in nanocrystalline soft magnetic materials by DPC STEM",
+    "speakers": "Michael Xu, Takehito Seki, Motoki Ohta, Yuji Kohno, Naoya Shibata",
+    "speakersJa": "Michael Xu, Takehito Seki, Motoki Ohta, Yuji Kohno, Naoya Shibata",
+    "conference": "2nd Advanced Electron Microscopy Workshop for Young Scientists",
+    "conferenceJa": "2nd Advanced Electron Microscopy Workshop for Young Scientists",
+    "date": "2025-03-13",
+    "year": "2025",
+    "place": "東京大学",
+    "placeJa": "東京大学",
+    "isInvited": false
+  }
+]
