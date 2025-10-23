@@ -1,0 +1,33 @@
+[
+  {
+    "id": "career-1",
+    "position": "B.Eng. in Materials Engineering",
+    "organization": "The University of Tokyo",
+    "location": "Tokyo, Japan",
+    "startDate": "2020",
+    "endDate": "2024",
+    "description": "",
+    "type": "education"
+  },
+  {
+    "id": "career-2",
+    "position": "M.Eng. in Materials Engineering",
+    "organization": "The University of Tokyo",
+    "location": "Tokyo, Japan",
+    "startDate": "2024",
+    "endDate": null,
+    "description": "",
+    "type": "education"
+  },
+  {
+    "id": "career-3",
+    "position": "Material Education program for the future leadeers in Research, Industry, and Technology（MERIT）",
+    "organization": "The University of Tokyo",
+    "location": "Tokyo, Japan",
+    "startDate": "2024/10",
+    "endDate": null,
+    "description": "",
+    "type": "education"
+  }
+  
+]
