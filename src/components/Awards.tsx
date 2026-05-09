@@ -21,7 +21,7 @@ const Awards: React.FC = () => {
       try {
         // 言語に応じたJSONファイルのパス
         const awardsPath = `/api/awards.json`;
-        const grantsPath = `/api/researchProjects.json`;
+        const grantsPath = `/api/funding.json`;
         const projectsPath = `./content/etc/projects_${i18n.language}.json`;
 
         // 並列でデータをフェッチ
