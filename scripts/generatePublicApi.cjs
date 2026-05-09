@@ -7,6 +7,7 @@ const publishedPapersPath = path.join(__dirname, '../data/rm_published_papers.cs
 const presentationsPath = path.join(__dirname, '../data/rm_presentations.csv');
 const miscPath = path.join(__dirname, '../data/rm_misc.csv');
 const awardsPath = path.join(__dirname, '../data/rm_awards.csv');
+const fundingPath = path.join(__dirname, '../data/rm_funding.csv');
 const researchProjectsPath = path.join(__dirname, '../data/rm_research_projects.csv');
 
 // 出力先ディレクトリ
@@ -56,6 +57,9 @@ const miscResult = readCsv(miscPath);
 
 // AWARDS CSVの処理
 const awardsResult = readCsv(awardsPath);
+
+// FUNDING CSVの処理
+const fundingResult = readCsv(fundingPath);
 
 // RESEARCH PROJECTS CSVの処理
 const researchProjectsResult = readCsv(researchProjectsPath);
@@ -187,6 +191,23 @@ const formattedAwards = awardsResult.data.map(award => {
   };
 });
 
+const formattedFunding = fundingResult.data.map(funding => {
+  return {
+    id: funding.ID || `funding-${Math.random().toString(36).substr(2, 9)}`,
+    title: funding['制度名(英語)'] || funding['制度名(日本語)'] || 'Untitled',
+    titleJa: funding['制度名(日本語)'] || funding['制度名(英語)'] || 'Untitled',
+    funder: funding['提供機関(英語)'] || funding['提供機関(日本語)'] || '',
+    funderJa: funding['提供機関(日本語)'] || funding['提供機関(英語)'] || '',
+    description: funding['タイトル(英語)'] || funding['タイトル(日本語)'] || '',
+    descriptionJa: funding['タイトル(日本語)'] || funding['タイトル(英語)'] || '',
+    yearFrom: funding['研究期間(From)'] ? funding['研究期間(From)'].substring(0, 4) : '',
+    monthFrom: funding['研究期間(From)'] ? funding['研究期間(From)'].substring(5, 7) : '',
+    yearTo: funding['研究期間(To)'] ? funding['研究期間(To)'].substring(0, 4) : '',
+    monthTo: funding['研究期間(To)'] ? funding['研究期間(To)'].substring(5, 7) : '',
+    isMainWork: isTrue(funding['主要な業績かどうか'])
+  };
+});
+
 const formattedResearchProjects = researchProjectsResult.data.map(researchProject => {
   return {
     id: researchProject.ID || `researchProject-${Math.random().toString(36).substr(2, 9)}`,
@@ -225,6 +246,10 @@ const sortedAwards = formattedAwards.sort((a, b) => {
   return (b.year + b.month) - (a.year + a.month);
 });
 
+const sortedFunding = formattedFunding.sort((a, b) => {
+  return (b.yearFrom + b.monthFrom) - (a.yearFrom + a.monthFrom);
+});
+
 const sortedResearchProjects = formattedResearchProjects.sort((a, b) => {
   return (b.yearFrom + b.monthFrom) - (a.yearFrom + a.monthFrom);
 });
@@ -250,6 +275,11 @@ fs.writeFileSync(
 fs.writeFileSync(
   path.join(outputDir, 'awards.json'),
   JSON.stringify(sortedAwards, null, 2)
+);
+
+fs.writeFileSync(
+  path.join(outputDir, 'funding.json'),
+  JSON.stringify(sortedFunding, null, 2)
 );
 
 fs.writeFileSync(
