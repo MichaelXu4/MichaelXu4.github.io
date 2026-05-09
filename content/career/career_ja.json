@@ -1,0 +1,33 @@
+[
+  {
+    "id": "career-1",
+    "position": "学士（工学）",
+    "organization": "東京大学",
+    "location": "東京、日本",
+    "startDate": "2020/4",
+    "endDate": "2024/3",
+    "description": "",
+    "type": "education"
+  },
+  {
+    "id": "career-2",
+    "position": "修士（工学）",
+    "organization": "東京大学",
+    "location": "東京、日本",
+    "startDate": "2024/4",
+    "endDate": 2026/3,
+    "description": "",
+    "type": "education"
+  },
+  {
+    "id": "career-4",
+    "position": "博士（工学）",
+    "organization": "東京大学",
+    "location": "東京、日本",
+    "startDate": "2026/4",
+    "endDate": null,
+    "description": "",
+    "type": "education"
+  }
+
+]
