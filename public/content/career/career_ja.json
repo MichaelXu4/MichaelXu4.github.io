@@ -4,8 +4,8 @@
     "position": "学士（工学）",
     "organization": "東京大学",
     "location": "東京、日本",
-    "startDate": "2020",
-    "endDate": "2024",
+    "startDate": "2020/4",
+    "endDate": "2024/3",
     "description": "",
     "type": "education"
   },
@@ -14,17 +14,17 @@
     "position": "修士（工学）",
     "organization": "東京大学",
     "location": "東京、日本",
-    "startDate": "2024",
-    "endDate": null,
+    "startDate": "2024/4",
+    "endDate": 2026/3,
     "description": "",
     "type": "education"
   },
   {
-    "id": "career-3",
-    "position": "統合物質科学リーダー養成プログラム（MERIT）14期生",
+    "id": "career-4",
+    "position": "博士（工学）",
     "organization": "東京大学",
     "location": "東京、日本",
-    "startDate": "2024/10",
+    "startDate": "2026/4",
     "endDate": null,
     "description": "",
     "type": "education"
