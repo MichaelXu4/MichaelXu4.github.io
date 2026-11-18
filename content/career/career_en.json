@@ -1,0 +1,33 @@
+[
+  {
+    "id": "career-1",
+    "position": "B.Eng. in Materials Engineering",
+    "organization": "The University of Tokyo",
+    "location": "Tokyo, Japan",
+    "startDate": "2020/4",
+    "endDate": "2024/3",
+    "description": "",
+    "type": "education"
+  },
+  {
+    "id": "career-2",
+    "position": "M.Eng. in Materials Engineering",
+    "organization": "The University of Tokyo",
+    "location": "Tokyo, Japan",
+    "startDate": "2024/4",
+    "endDate": "2026/3",
+    "description": "",
+    "type": "education"
+  },
+  {
+    "id": "career-3",
+    "position": "Ph.D.Eng. in Materials Engineering",
+    "organization": "The University of Tokyo",
+    "location": "Tokyo, Japan",
+    "startDate": "2026/4",
+    "endDate": null,
+    "description": "",
+    "type": "education"
+  }
+  
+]
